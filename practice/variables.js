@@ -17,4 +17,15 @@ console.log(accountId);
 
 console.table([accountId, accountEmail, accountPassword, accountCity])
 
-let shayari=""
+let shayari="aap hi ke bina hu kyu bechain... aap hi kyu meri jarurat hai... wehem itna haseen nahi hota...wakai aap khoobsurat hain"
+
+console.log(shayari)
+
+let shayariTwo = "tute hua kach ki tarah chakna chur ho gaye... kisi ko chub na jaye isliye sabse dur ho gaye"
+console.log(shayariTwo)
+
+let shayariThree= "uski har ek yad main lazzat hoti hai...pehli mohabbat pehli mohabbat hoti hai...tere sath nahi hai to ahessas huwa ek taswir ki kitni kimmat hoti hai"
+console.log(shayariThree)
+
+shayariFour= "bina dekhe teri tasweer bana sakta hoon... bina mile tera hal bata sakta hoon... are meri mohabbat main itani takat hai ke tere aankh ke aansu apni aankh se nikal sakta hoon."
+console.log(shayariFour) 
