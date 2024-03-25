@@ -29,3 +29,5 @@ console.log(shayariThree)
 
 shayariFour= "bina dekhe teri tasweer bana sakta hoon... bina mile tera hal bata sakta hoon... are meri mohabbat main itani takat hai ke tere aankh ke aansu apni aankh se nikal sakta hoon."
 console.log(shayariFour) 
+
+console.table([shayari, shayariTwo, shayariThree, shayariFour])
