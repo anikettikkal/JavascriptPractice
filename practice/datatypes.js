@@ -23,3 +23,6 @@ console.log(typeof name);
 console.log(typeof city);
 console.log(typeof no);
 console.log(typeof studentId);
+
+console.log(typeof null); // show object datatype
+console.log(typeof undefined); // show undefined data type
