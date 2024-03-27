@@ -28,4 +28,16 @@ let no=""
 console.log(Boolean(no));
 
 /* 1=> true ; 0 => false;
-    "" => false ; "aniket" => true */
+    "" => false ; "aniket" => true 
+*/
+
+//------------------------------------ Operations Starts---------------------------------------------------
+
+console.log(2+2);
+console.log(2*2);
+console.log(2-2);
+console.log(2/2);
+console.log(2%2);
+console.log(2**3);
+console.log(2*2+4);
+
