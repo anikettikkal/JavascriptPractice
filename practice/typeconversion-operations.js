@@ -19,13 +19,13 @@ let output= Number(input)
 
 let isLogin= 1
 let isLogout= Boolean(isLogin)
-console.log(isLogout);
+//console.log(isLogout);
 
 let name='aniket'
-console.log(Boolean(name));
+//console.log(Boolean(name));
 
 let no=""
-console.log(Boolean(no));
+//console.log(Boolean(no));
 
 /* 1=> true ; 0 => false;
     "" => false ; "aniket" => true 
@@ -33,11 +33,26 @@ console.log(Boolean(no));
 
 //------------------------------------ Operations Starts---------------------------------------------------
 
-console.log(2+2);
-console.log(2*2);
-console.log(2-2);
-console.log(2/2);
-console.log(2%2);
-console.log(2**3);
-console.log(2*2+4);
+//console.log(2+2);
+//console.log(2*2);
+//console.log(2-2);
+//console.log(2/2);
+//console.log(2%2);
+//console.log(2**3);
+//console.log(2*2+4);
+//console.log("1" + 2+2); // output is 122
+//console.log(2+2+"4"); // output is 44
 
+let str1= "hello"
+let str2= "aniket"
+let str3= str1+ str2
+//console.log(str3);
+
+let addition= 234
+console.log(++addition); // prefix 
+console.log(addition++); // postfix
+
+console.log(+true);
+console.log(+false);
+console.log(+"");
+console.log(+"aniket"); // output is NaN
