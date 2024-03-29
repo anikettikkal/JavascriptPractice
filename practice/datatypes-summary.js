@@ -18,4 +18,23 @@ console.log(userId===compare);
 
 const value=2345832094582
 
-console.table([id,score,isLogedIn,scoreValue,userEmail,userId,value]);
+//console.table([id,score,isLogedIn,scoreValue,userEmail,userId,value]);
+
+// Non-primitive(call by rereference)=> array , object, functions
+
+const heroes=["aniket", "akash", "avishkar", "mukesh"]
+
+/*const myFuntions = funtion(){
+    console.log("hello world");
+}
+*/
+
+let myObj = {
+    name:"aniket",
+    age:22.
+}
+
+console.log(typeof myObj);
+console.log(typeof heroes);
+
+//note=> if we are cheacking the data types of non primitive it always show function type
