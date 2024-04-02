@@ -42,3 +42,27 @@ console.log(typeof heroes);
 //************************************************************************************************************* */
 
 // memory allocations in js
+
+// primitive type => call by value
+
+let myName="aniket"
+let anotherName = myName
+
+anotherName= "Dhiraj"
+
+console.log(myName);
+console.log(anotherName);
+
+// non-primitive => call by reference
+
+let userOne = {
+    email: "aniket@gmail.com",
+    upi: "abcd"
+}
+
+let userTwo = userOne
+
+userTwo.email= "anikettikkal@gmail.com"
+
+console.log(user.email);
+console.log(userTwo.email);
