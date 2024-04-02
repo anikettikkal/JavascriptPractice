@@ -38,3 +38,7 @@ console.log(typeof myObj);
 console.log(typeof heroes);
 
 //note=> if we are cheacking the data types of non primitive it always show function type
+
+//************************************************************************************************************* */
+
+// memory allocations in js
