@@ -62,7 +62,7 @@ let userOne = {
 
 let userTwo = userOne
 
-//userTwo.email= "anikettikkal@gmail.com"
+userTwo.email= "anikettikkal@gmail.com"
 
-console.log(userOne);
-console.log(userTwo);
+console.log(userOne.email);
+console.log(userTwo.email);
