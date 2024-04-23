@@ -10,3 +10,10 @@ console.log(myDate.getMonth());
 console.log(myDate.getSeconds());
 console.log(myDate.getTime());
 console.log(myDate.getTimezoneOffset());
+
+let newDate= new Date()
+
+newDate.toLocaleString('default',{
+    weekday: "long",
+    second: "2-digit"
+})
