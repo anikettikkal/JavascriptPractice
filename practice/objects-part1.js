@@ -9,9 +9,9 @@ const myObj = {
     lastLogedIn: ["monday","friday"]
 }
 
-// console.log(myObj);
-// console.log(myObj["age"]);
-// console.log(myObj["lastLogedIn"]);
+console.log(myObj);
+console.log(myObj["age"]);
+console.log(myObj["lastLogedIn"]);
 
 // interview ask que ==> hpw to add symbol values in objects
 
@@ -26,19 +26,19 @@ const userObj = {
     isLogedIn: false,
     lastLogedIn: ["monday","friday"]
 }
-// console.log(userObj);
-// console.log(typeof userObj[symKey]);
+console.log(userObj);
+console.log(typeof userObj[symKey]);
 
 // how to change values
 
-// console.log(userObj.email="aniket03@gmail.com");
-// console.log(userObj);
+console.log(userObj.email="aniket03@gmail.com");
+console.log(userObj);
 
 // how to lock or freeze the values in objects
 
 // Object.freeze(userObj)
 userObj.age=23
-// console.log(userObj);
+console.log(userObj);
 
 // adding functions in objects
 
