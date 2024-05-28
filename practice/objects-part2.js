@@ -21,4 +21,9 @@ const realUser = {
     courseInstructor : "aniket"
  }
 
- course.courseInstructor
+//  course.courseInstructor
+
+const {courseFee}= course
+console.log(courseFee);
+const {courseInstructor}= course
+console.log(courseInstructor);
