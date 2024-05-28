@@ -11,5 +11,14 @@ const realUser = {
     id: 123
 }
 
-console.log(realUser);
-console.log(realUser.fullname.userfullname.userfirstname);
+// console.log(realUser);
+// console.log(realUser.fullname.userfullname.userfirstname);
+
+// ------------------------------- distructing of objects --------------------------------//
+ const course = {
+    courseName : "javascript",
+    courseFee : 999,
+    courseInstructor : "aniket"
+ }
+
+ course.courseInstructor
