@@ -38,3 +38,20 @@ if(percentage < 90){
 } else{
     console.log("student is in distinctions");
 }
+
+//======================== real time use of conditional statements ===============================
+
+const isUserLogedIn = true
+const debitcard= true
+const loginFromGoogle = true
+const loginFromEmail = true
+
+if(isUserLogedIn && debitcard){
+    console.log("allow to buy a course");
+} else {
+    console.log("dont allow user to buy a course");
+}
+
+if(loginFromEmail || loginFromGoogle){
+    console.log("user login sucessfully");
+}
