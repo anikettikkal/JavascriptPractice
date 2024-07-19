@@ -39,3 +39,27 @@ console.log(userBooks);
 
 //++++++++++++++++++++++++++++++++++++++++++ Map method +++++++++++++++++++++++++++++++++++
 
+const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const newNumbers = myNumbers.map((no) => {
+    return no
+})
+console.log(newNumbers);
+
+// chaining === we are using two to three methgods at a same time 
+
+const numbers = myNumbers.map((numbs) => {
+    return numbs * 10
+}).map((numbs) => {
+    return numbs + 1
+})
+console.log(numbers);
+
+
+//++++++++++++++++++++++++++++++++++++++++++ Reduce Method +++++++++++++++++++++++++++++++
+
+const valNum = [1, 2, 3]
+const myTotal = valNum.reduce((acc, currval) => {
+    return acc + currval
+})
+
+console.log(myTotal);
