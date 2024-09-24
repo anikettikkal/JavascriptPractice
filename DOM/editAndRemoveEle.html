@@ -11,6 +11,9 @@
     </ul>
 </body>
 <script>
+
+    // addElements
+
     function addLanguage(langName){
         const li = document.createElement('li');
         li.innerHTML = `${langName}`
@@ -29,5 +32,11 @@
     addOptiLanguage('asp.net')
     addOptiLanguage('java')
 
+    // edit elements
+    const secondLang = document.querySelector('li:nth-child(2)')
+    //secondLang.innerHTML = "Mojo"
+    const newli = document.createElement('li')
+    newli.innerHTML = "Mojo"
+    secondLang.replaceWith(newli)
 </script>
 </html>
