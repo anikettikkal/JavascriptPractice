@@ -38,5 +38,14 @@
     const newli = document.createElement('li')
     newli.innerHTML = "Mojo"
     secondLang.replaceWith(newli)
+
+    // another method to edit an element
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = "<li> advancedPython </li>"
+
+    // remove elements
+    const lastLang = document.querySelector("li:last-child")
+    lastLang.remove()
+    
 </script>
 </html>
