@@ -20,7 +20,14 @@
     addLanguage('python')
     addLanguage('typescript')
 
-    
+    function addOptiLanguage(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptiLanguage('c#.net')
+    addOptiLanguage('asp.net')
+    addOptiLanguage('java')
 
 </script>
 </html>
