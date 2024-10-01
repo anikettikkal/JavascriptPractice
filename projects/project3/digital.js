@@ -4,3 +4,5 @@ const clock = document.querySelector('#clock')
 
 let date = new Date()
 console.log(date.toLocaleString());
+
+setInterval(function(){}, 2000)
