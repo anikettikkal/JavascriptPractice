@@ -1,3 +1,3 @@
 // how to genertae a random number
 
-console.log(Math.random()*100+1);
+console.log(parseInt(Math.random()*100+1));
