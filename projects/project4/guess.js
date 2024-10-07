@@ -48,11 +48,18 @@ function validateGuess(guess) {
 }
 
 function checkGuess(guess) {
-    //
+    if (guess === randomNumber) {
+        displayMessage('You Guesses it right')
+        endGame()
+    } else if (guess < randomNumber) {
+        displayMessage('Number is too low')
+    } else if (guess > randomNumber) {
+        displayMessage('Number is too high')
+    }
 }
 
 function displauGuess(guess) {
-    //
+    
 }
 
 function displayMessage(message) {
