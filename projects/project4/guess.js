@@ -34,5 +34,11 @@ function displayMessage(message){
 }
 
 
+function newGame(){
+    //
+}
 
+function endGame(){
+    //
+}
 
