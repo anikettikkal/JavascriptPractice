@@ -17,6 +17,22 @@ let numGuess = 1;
 
 let playGame = true;
 
+function validateGuess(guess){
+    //
+}
+
+function checkGuess(guess){
+    //
+}
+
+function displauGuess(guess){
+    //
+}
+
+function displayMessage(message){
+    //
+}
+
 
 
 
