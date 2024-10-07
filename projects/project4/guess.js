@@ -1,6 +1,6 @@
 // how to genertae a random number
 
-const randomNumber = (parseInt(Math.random()*100+1));
+const randomNumber = (parseInt(Math.random() * 100 + 1));
 
 const submit = document.querySelector('#subt');
 const userInput = document.querySelector('#guessField');
@@ -17,28 +17,54 @@ let numGuess = 1;
 
 let playGame = true;
 
-function validateGuess(guess){
+if (playGame) {
+    submit.addEventListener('click', function (e) {
+        e.preventDefault()
+        const guess = parseInt(userInput.value);
+        console.log(guess);
+
+        validateGuess(guess)
+    })
+}
+
+function validateGuess(guess) {
+    if (isNaN(guess)) {
+        alert("Please enter a valid number")
+    } else if (guess < 1) {
+        alert('Please enter a number more than 1')
+    } else if (guess > 100) {
+        alert('Please enter a number less than 100')
+    } else {
+        prevGuess.push(guess)
+        if (numGuess === 11) {
+            displauGuess(guess)
+            displayMessage(`Game Over , Random number was ${randomNumber}`)
+            endGame()
+        } else {
+            displauGuess(guess)
+            checkGuess(guess)
+        }
+    }
+}
+
+function checkGuess(guess) {
     //
 }
 
-function checkGuess(guess){
+function displauGuess(guess) {
     //
 }
 
-function displauGuess(guess){
-    //
-}
-
-function displayMessage(message){
+function displayMessage(message) {
     //
 }
 
 
-function newGame(){
+function newGame() {
     //
 }
 
-function endGame(){
+function endGame() {
     //
 }
 
