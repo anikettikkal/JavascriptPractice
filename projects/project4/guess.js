@@ -1,6 +1,6 @@
 // how to genertae a random number
 
-const randomNumber = (parseInt(Math.random() * 100 + 1));
+let randomNumber = (parseInt(Math.random() * 100 + 1));
 
 const submit = document.querySelector('#subt');
 const userInput = document.querySelector('#guessField');
@@ -37,11 +37,11 @@ function validateGuess(guess) {
     } else {
         prevGuess.push(guess)
         if (numGuess === 11) {
-            displauGuess(guess)
+            cleanupGuess(guess)
             displayMessage(`Game Over , Random number was ${randomNumber}`)
             endGame()
         } else {
-            displauGuess(guess)
+            cleanupGuess(guess)
             checkGuess(guess)
         }
     }
@@ -60,7 +60,7 @@ function checkGuess(guess) {
 
 function cleanupGuess(guess) {
     userInput.value = ''
-    guessSlot.innerHTML == `${guess}`
+    guessSlot.innerHTML += `${guess}    `; 
     numGuess++;
     remaining.innerHTML = `${11 - numGuess}`
 }
@@ -71,10 +71,27 @@ function displayMessage(message) {
 
 
 function newGame() {
-    //
+    userInput.value = ''
+    userInput.setAttribute('disabled', '')
+    p.classList.add('button')
+    p.innerHTML = '<h2 id="newGame">Start new Game</h2>'
+    startOver.appendChild(p)
+    playGame = false;
+    newGame();
 }
 
 function endGame() {
-    //
+    const newGamebutton = document.querySelector('#newGame')
+    newGamebutton.addEventListener('click' , function(e){
+        randomNumber = parseInt(Math.random() * 100 + 1);
+        prevGuess = []
+        numGuess =1
+        guessSlot.innerHTML = ''
+        remaining.innerHTML = `${11 - numGuess}`
+        userInput.removeAttribute('disabled')
+        startOver.removeChild(p) ;
+        
+        playGame = true
+    })
 }
 
