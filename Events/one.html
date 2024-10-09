@@ -39,9 +39,17 @@
         // attachEvent()
         //jQuery - onEventListner
 
-        document.getElementById('owl').addEventListener('click' , function(){
-                alert('Owl Clicked Again')
+        // document.getElementById('owl').addEventListener('click' , function(){
+        //         alert('Owl Clicked Again')
+        // })
+
+        document.getElementById('owl').addEventListener('click' , function(e){
+                console.log(e);
         })
+        // type, timestamp,defaultPrevented
+        // target, toElement, srcElement, currentTarget
+        // clientX , clientY , screenX , screenY
+        // altKay, ctrlKaey , shiftKey, keyCode
 
 </script>
 
