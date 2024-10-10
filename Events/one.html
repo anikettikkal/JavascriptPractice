@@ -53,19 +53,26 @@
         // altKay, ctrlKaey , shiftKey, keyCode
 
         // event Propogation
-        document.getElementById('images').addEventListener('click', function (e) {
-                console.log("clicked inside the ul");
-        }, false)
+        // document.getElementById('images').addEventListener('click', function (e) {
+        //         console.log("clicked inside the ul");
+        // }, false)
 
-        document.getElementById('owl').addEventListener('click', function (e) {
-                console.log("Owl Clicked");
-                e.stopPropagation()
-        }, false)
+        // document.getElementById('owl').addEventListener('click', function (e) {
+        //         console.log("Owl Clicked");
+        //         e.stopPropagation()
+        // }, false)
 
-        document.getElementById('google').addEventListener('click', function(e){
-                console.log("google clicked");
-                e.preventDefault()
-        }, false)
+        // document.getElementById('google').addEventListener('click', function(e){
+        //         console.log("google clicked");
+        //         e.preventDefault()
+        // }, false)
+
+        // how to remove images after clicked on this
+        document.querySelector('#images').addEventListener('click', function(e){
+                console.log(e.target.parentNode);
+                let removeIt = e.target.parentNode
+                removeIt.remove()
+        } , false)
 
 </script>
 
