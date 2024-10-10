@@ -69,9 +69,13 @@
 
         // how to remove images after clicked on this
         document.querySelector('#images').addEventListener('click', function(e){
-                console.log(e.target.parentNode);
-                let removeIt = e.target.parentNode
-                removeIt.remove()
+                console.log(e.target.tagName);
+                if(e.target.tagName=== "IMG"){
+                        let removeIt = e.target.parentNode
+                        removeIt.remove() 
+                }
+                // let removeIt = e.target.parentNode
+                // removeIt.remove()
         } , false)
 
 </script>
