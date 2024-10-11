@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Chai or Code</h1>
     <button id="stop">Stop</button>
 </body>
 <script>
-    setTimeout(function(){
+    // setTimeout(function(){
+    //     console.log("aniket");
+
+    // }, 2000)
+
+    const sayAniket = function () {
         console.log("aniket");
-        
-    }, 2000)
+
+    }
+
+    const changeText = function(){
+        document.querySelector('h1').innerHTML="Best JS Series"
+    }
+    setTimeout(changeText, 2000)
+
+    // document.querySelector('h1').innerHTML="Best JS Series"
+
+    setTimeout(sayAniket,2000)
 </script>
+
 </html>
