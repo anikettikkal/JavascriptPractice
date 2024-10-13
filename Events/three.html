@@ -13,11 +13,32 @@
     <button id="stop">Stop</button>
 </body>
 <script>
-    const sayDate = function(){
-        console.log('Aniket', Date.now());
+    // const sayDate = function(){
+    //     console.log('Aniket', Date.now());
         
+    // }
+    // const intervalId = setInterval(sayDate, 2000)
+
+    // clearInterval(intervalId)
+
+    const changeName = function(){
+        const changeName = document.querySelector('h1').innerHTML = "Chai or Code"
     }
-    setInterval(sayDate, 2000)
+
+    const stopMenow = setInterval(changeName,2000)
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearInterval(stopMenow)
+        console.log("stopped");
+        
+    })
+
+    const startAction = (changeName,2000)
+    
+    document.querySelector("#start").addEventListener('click', function(){
+        setInterval(resolve('all done'), 2000)
+        console.log("startNow"); 
+    })
+
 </script>
 
 </html>
