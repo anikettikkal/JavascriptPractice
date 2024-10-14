@@ -11,3 +11,13 @@ const randomColor = function(){
 
 console.log(randomColor());
 
+const stopChangingColor = function(){
+
+}
+
+const startChangingColor = function(){
+
+}
+
+document.querySelector('#stop').addEventListener('click', stopChangingColor)
+document.querySelector('#start').addEventListener('click', startChangingColor)
