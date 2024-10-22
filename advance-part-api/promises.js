@@ -39,3 +39,8 @@ promiseThree.then(function(user){
     
 })
 
+const promiseFour = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        
+    },1000)
+})
