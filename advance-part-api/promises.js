@@ -41,7 +41,7 @@ promiseThree.then(function(user){
 
 const promiseFour = new Promise(function(resolve, reject){
     setTimeout(function(){
-        let error = true
+        let error = false
         if(!error){
             resolve({
                 username:"aniket",
@@ -61,5 +61,8 @@ promiseFour.then((user) => {
     
 }).catch((error) => {
     console.log(error);
+    
+}).finally(() => {
+    console.log("The Promise is either resolved or rejected");
     
 })
