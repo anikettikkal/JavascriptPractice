@@ -16,7 +16,7 @@ object literal
 - Instances (new , this)
 
 ## 4 pillars
-- Abstrction
+- Abstrction 
 - Encapsulation
 - Inheritance
 - Polymorphism
