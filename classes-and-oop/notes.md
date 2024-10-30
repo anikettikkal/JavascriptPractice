@@ -25,4 +25,7 @@ object literal
 
 
 - Inheritance
+"In JavaScript, inheritance is a mechanism that allows one class (known as a "subclass" or "child class") to inherit properties and methods from another class (known as a "superclass" or "parent class"). Inheritance is a core concept in object-oriented programming (OOP) that helps reduce redundancy, allowing for code reuse and better organization."
+
+
 - Polymorphism
