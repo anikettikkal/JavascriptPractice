@@ -17,6 +17,10 @@ object literal
 
 ## 4 pillars
 - Abstrction 
+"ple that helps simplify complex systems by reducing unnecessary details and exposing only the essential parts of an object or function. Abstraction is a key concept in object-oriented programming (OOP) that aims to create a clear and simple interface for interacting with more complex code, making code easier to read, maintain, and modify."
+
+
 - Encapsulation
+""
 - Inheritance
 - Polymorphism
