@@ -21,6 +21,8 @@ object literal
 
 
 - Encapsulation
-""
+"encapsulation is a concept in object-oriented programming (OOP) that restricts direct access to some components of an object, which protects the internal state of that object. Encapsulation is all about bundling the data (attributes) and methods (functions) that operate on the data within one unit (like a class) and controlling access to them."
+
+
 - Inheritance
 - Polymorphism
