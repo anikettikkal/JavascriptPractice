@@ -29,3 +29,4 @@ object literal
 
 
 - Polymorphism
+"Polymorphism in JavaScript is a fundamental concept in object-oriented programming (OOP) that allows different classes to be treated as instances of the same superclass. Polymorphism enables methods in different classes to have the same name but behave differently based on the object's specific class."
